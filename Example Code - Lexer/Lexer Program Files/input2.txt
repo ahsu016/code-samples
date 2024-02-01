@@ -1,0 +1,1 @@
+for (dog > 0) dog *= 10; [*This is a comment -> Comparing the identifier with int*] 

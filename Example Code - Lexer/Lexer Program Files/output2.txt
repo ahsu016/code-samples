@@ -1,0 +1,13 @@
+Token          Lexeme         
+------------------------------
+keyword        for            
+separator      (              
+identifier     dog            
+operator       >              
+integer        0              
+separator      )              
+identifier     dog            
+operator       *              
+operator       =              
+integer        10             
+separator      ;              

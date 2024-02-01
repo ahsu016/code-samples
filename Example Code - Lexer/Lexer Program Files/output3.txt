@@ -1,0 +1,20 @@
+Token          Lexeme         
+------------------------------
+keyword        if             
+separator      (              
+identifier     moo            
+operator       !=             
+identifier     frog           
+separator      )              
+separator      {              
+integer        6              
+operator       +              
+integer        4              
+separator      ;              
+separator      }              
+keyword        else           
+separator      {              
+keyword        return         
+integer        5              
+separator      ;              
+separator      }              
