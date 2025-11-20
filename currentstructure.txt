@@ -1,0 +1,29 @@
+/ File Structure
+// word-graph-app/
+// ├── backend/                     # Flask app
+// │   ├── app.py                   # Main Flask server
+// │   ├── requirements.txt         # Python dependencies
+// │   └── utils/
+// │       └── word_processor.py    # Handles synonyms, antonyms, etc.
+// ├── frontend/                    # React app
+// │   ├── public/
+// │   │   └── index.html
+// │   ├── src/
+// │   │   ├── components/          # Reusable UI components
+// │   │   │   ├── NavBar.jsx       # Top navigation bar
+// │   │   │   └── WordGraph.jsx    # D3 graph renderer
+// │   │   ├── pages/               # Page-level views
+// │   │   │   ├── Home.jsx         # Home page
+// │   │   │   ├── Search.jsx       # Search page
+// │   │   ├── App.jsx              # Router and layout
+// │   │   ├── index.js             # ReactDOM entry point
+// │   │   └── api.js               # Axios wrapper for Flask + OpenAI
+// │   ├── package.json             # React dependencies
+// │   └── .env                     # REACT_APP_API_URL, OPENAI key
+// ├── README.md                    # Project overview
+
+// IGNORE THESE FILES:
+	// graph-visual is a cmd offline version of how the project should function and implements 	instead 
+		// this was a side component I used to research how the moving components of my 			project should work under a simpler structure I was familiar with (matplotlib + 			gen visualization tool). after that, I ported the ideas over to React.js format.
+		// as this has nothing to do with the actual web application, and was more or less 
+		an early guideline I made for myself so that I could understand the structure of 			my project, feel free to ignore it (or to interact with it if you so desire).
